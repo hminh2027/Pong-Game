@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6924510848712341028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6924510848712341051}
+  - component: {fileID: 6924510848712341050}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6924510848712341051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6924510848712341028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.024955966, y: -2.5864005, z: -0.051729452}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6924510848712341050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6924510848712341028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ad3a1ceebe513b428e88e99b363e48c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BallHitted
+    clip: {fileID: 8300000, guid: b27314d460d07974aa95e6fb8f8fad6e, type: 3}
+    volume: 1
+    pitch: 0.77
+    source: {fileID: 0}
+  - name: ButtonClicked
+    clip: {fileID: 8300000, guid: 29e19c344cdd7be4196c90c8e3de82a3, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Scored
+    clip: {fileID: 8300000, guid: 7edce216236c2184e9fd735109725936, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Pause
+    clip: {fileID: 8300000, guid: 67d8fe08d87e47147bb1659c900c262e, type: 3}
+    volume: 1
+    pitch: 0.64
+    source: {fileID: 0}
+  - name: Gameover
+    clip: {fileID: 8300000, guid: 196bb3d7cddf05f47acde1c08baf1fbb, type: 3}
+    volume: 1
+    pitch: 2
+    source: {fileID: 0}
+  - name: Victory
+    clip: {fileID: 8300000, guid: 25ac7360de0b8414fa444ddcc156682d, type: 3}
+    volume: 1
+    pitch: 2
+    source: {fileID: 0}
